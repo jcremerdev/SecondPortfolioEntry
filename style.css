@@ -1,0 +1,34 @@
+/*Mobile-First*/
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemone {
+  flex: 1;
+  margin: 5px;
+}
+
+.itemtwo {
+  flex: 2;
+  margin: 5px;
+}
+
+img {
+  width:100%;
+}
+/* For Desktops*/
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
